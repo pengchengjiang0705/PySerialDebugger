@@ -61,7 +61,7 @@ HexMode = false
 ```
 ### 3. 运行程序
 ```bash
-python serial_debug.py
+python main.py
 ```
 
 ---
@@ -70,7 +70,7 @@ python serial_debug.py
 ### 命令行操作
 | 命令 | 功能描述   | 示例 |
 |:------:|:------:|:------:|
-| send  | 发送文本数据  | send HelloWorld  |
+| send  | 发送文本数据  | send HelloWorld  | 
 | hexsend  | 发送十六进制数据  | hexsend A1 B2 C3 |
 | match  | 设置逻辑匹配表达式  | match OR("ERR","WARN")  |
 | config  | 重载配置文件  | config  |
